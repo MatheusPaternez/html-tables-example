@@ -96,7 +96,7 @@ div.table1 table tfoot tr td:last-child {
     padding: 25px 0px;
 }
 
-/* Table 2 */
+/* Second Table */
 
 .table2heading {
     text-align: center;
@@ -140,10 +140,41 @@ div.table2 table {
     margin-right: 0px;
 }
 
-.blue, #usability, #durability{
-    background-color: ;
-}
-
 .dark-blue, #price, #design, #productA, #productB, #productC {
     background-color: #bccde9;
+}
+
+/* Third Table */
+
+.table3heading {
+    text-align: center;
+    font-size: small;
+    padding: 30px 0px;
+}
+
+div.table3 caption{
+    caption-side: bottom;
+    font-style: italic;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
+div.table3 table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.table3 table td,
+div.table3 table th{
+    padding: 20px 0px;
+    text-align: center;
+    border: 1px solid #8fa8c7;
+}
+
+.img{
+    width: 200px;
+    aspect-ratio: 1/1;
 }
