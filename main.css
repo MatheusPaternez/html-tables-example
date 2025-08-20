@@ -1,0 +1,109 @@
+/* Universal Style Rules */
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    background-color: rgb(236, 226, 226);
+}
+
+.table1heading {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+table {
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    border-color: rgb(236, 226, 226);
+    border-spacing: 0px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 7px 0;
+    font-size: 14px;
+    font-style: italic;
+    background-color: rgb(236, 226, 226);
+}
+
+table td,
+table th {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid rgb(236, 226, 226);
+    color: #6c6f78;
+}
+
+/* Color Table Headers */
+table thead th {
+    color: #FFFFFF;
+    background-color: #4168d4;
+}
+
+/* Color Even Rows */
+table tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+table thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table thead tr:last-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tfoot tr th:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tfoot tr td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+#english2 {
+    color: #4168d4;
+    padding: 50px 0px;
+}
+
+#geography {
+    color: #4168d4;
+    padding: 25px 0px;
+}
+
+#biology{
+    color: #4168d4;
+    padding: 25px 0px;
+}
+
+/* Table 2 */
+
+.table2heading {
+    text-align: center;
+    font-size: small;
+}
+
+.caption2 {
+    caption-side: bottom;
+    font-style: italic;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+    <h2 class="table1heading" id="tableHeading">Semester II Schedule</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="tableHeading">
+            <caption>Fig: Semester 2 Course Schedule</caption>
+            <thead>
+                <tr>
+                    <th id="course" scope="col">Course</th>
+                    <th id="time" scope="colgroup" colspan="2">Time</th>
+                    <th id="room" scope="col">Room</th>
+                    <th id="day" scope="col">Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="english2" scope="rowgroup" rowspan="2" headers="course">English II</th>
+                    <td headers="time english2">9:00</td>
+                    <td headers="time english2">11:00</td>
+                    <td headers="room english2">L2201</td>
+                    <td headers="day english2">Monday</td>
+                </tr>
+                <tr>
+                    <td headers="time english2">9:00</td>
+                    <td headers="time english2">11:00</td>
+                    <td headers="room english2">L2201</td>
+                    <td headers="day english2">Wednesday</td>
+                </tr>
+                <tr>
+                    <th id="geography" scope="row" headers="course">Geography</th>
+                    <td headers="time geography">11:00</td>
+                    <td headers="time geography">12:45</td>
+                    <td headers="room geography">G107</td>
+                    <td headers="day geography">Tuesday</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="biology" scope="row" headers="course">Biology</th>
+                    <td headers="time biology">9:00</td>
+                    <td headers="time biology">11:00</td>
+                    <td headers="room biology">B302</td>
+                    <td headers="day biology">Friday</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <h2 class="table2heading" style="margin-top: 300px;" id="table2Heading">Product Comparison Chart</h2>
+    <div class="table-wrapper2">
+        <table aria-labelledby="table2Heading">
+            <caption class="caption2">Fig: Comparison of the features between the products.</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="productA" scope="col">Product A</th>
+                    <th id="productB" scope="col">Product B</th>
+                    <th id="productC" scope="col">Product C</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
