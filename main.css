@@ -144,6 +144,10 @@ div.table2 table {
     background-color: #bccde9;
 }
 
+.blue, #durability, #usability{
+    background-color: #d9e8fb;
+}
+
 /* Third Table */
 
 .table3heading {
