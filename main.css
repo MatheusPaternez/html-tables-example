@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
 }
 
-table {
+.table1 {
     font-size: 16px;
     width: 100%;
     max-width: 100%;
@@ -38,7 +38,7 @@ table {
     border-spacing: 0px;
 }
 
-caption {
+.caption1 {
     caption-side: bottom;
     padding: 7px 0;
     font-size: 14px;
@@ -46,8 +46,8 @@ caption {
     background-color: rgb(236, 226, 226);
 }
 
-table td,
-table th {
+div.table1 table td,
+div.table1 table th {
     text-align: center;
     padding: 8px;
     border: 1px solid rgb(236, 226, 226);
@@ -55,29 +55,29 @@ table th {
 }
 
 /* Color Table Headers */
-table thead th {
+div.table1 table thead th {
     color: #FFFFFF;
     background-color: #4168d4;
 }
 
 /* Color Even Rows */
-table tr:nth-child(even) {
+div.table1 table tr:nth-child(even) {
     background-color: #F8F8F8;
 }
 
-table thead tr:first-child th:first-child {
+div.table1 table thead tr:first-child th:first-child {
     border-top-left-radius: 10px;
 }
 
-table thead tr:last-child th:last-child {
+div.table1 table thead tr:last-child th:last-child {
     border-top-right-radius: 10px;
 }
 
-table tfoot tr th:first-child {
+div.table1 table tfoot tr th:first-child {
     border-bottom-left-radius: 10px;
 }
 
-table tfoot tr td:last-child {
+div.table1 table tfoot tr td:last-child {
     border-bottom-right-radius: 10px;
 }
 
@@ -101,9 +101,49 @@ table tfoot tr td:last-child {
 .table2heading {
     text-align: center;
     font-size: small;
+    padding: 30px 0px;
 }
 
 .caption2 {
     caption-side: bottom;
     font-style: italic;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
+div.table2 table td,
+div.table2 table th {
+    text-align: center;
+    border: 1px solid #8fa8c7;
+}
+
+#blank {
+    border: none;
+}
+
+#durability, #design, #usability, #price {
+    padding-left: 10px;
+    text-align: left;
+    padding: 20px 50px 10px 10px;
+}
+
+#productA, #productB, #productC {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+div.table2 table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.blue, #usability, #durability{
+    background-color: ;
+}
+
+.dark-blue, #price, #design, #productA, #productB, #productC {
+    background-color: #bccde9;
 }

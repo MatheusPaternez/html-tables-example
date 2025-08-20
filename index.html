@@ -10,9 +10,9 @@
 
 <body>
     <h2 class="table1heading" id="tableHeading">Semester II Schedule</h2>
-    <div class="table-wrapper">
-        <table aria-labelledby="tableHeading">
-            <caption>Fig: Semester 2 Course Schedule</caption>
+    <div class="table-wrapper table1">
+        <table class="table1" aria-labelledby="tableHeading">
+            <caption class="caption1">Fig: Semester 2 Course Schedule</caption>
             <thead>
                 <tr>
                     <th id="course" scope="col">Course</th>
@@ -55,20 +55,43 @@
         </table>
     </div>
 
-    <h2 class="table2heading" style="margin-top: 300px;" id="table2Heading">Product Comparison Chart</h2>
-    <div class="table-wrapper2">
+    <h2 class="table2heading" style="margin-top: 100px;" id="table2Heading">Product Comparison Chart</h2>
+    <div class="table-wrapper2 table2">
         <table aria-labelledby="table2Heading">
             <caption class="caption2">Fig: Comparison of the features between the products.</caption>
             <thead>
                 <tr>
-                    <th></th>
+                    <th id="blank"></th> <!-- blank space -->
                     <th id="productA" scope="col">Product A</th>
                     <th id="productB" scope="col">Product B</th>
                     <th id="productC" scope="col">Product C</th>
                 </tr>
             </thead>
             <tbody>
-                
+                <tr>
+                    <th id="durability" scope="row">Durability</th>
+                    <td class= "blue" headers="productA durability">10/10</td>
+                    <td class= "blue" headers="productB durability">5/10</td>
+                    <td class= "blue" headers="productC durability">7/10</td>
+                </tr>
+                <tr>
+                    <th id="design" scope="row">Design</th>
+                    <td class= "dark-blue" headers="productA design">3/10</td>
+                    <td class= "dark-blue" headers="productB design">8/10</td>
+                    <td class= "dark-blue" headers="productC design">7/10</td>
+                </tr>
+                <tr>
+                    <th id="usability" scope="row">Usability</th>
+                    <td class= "blue" headers="productA usability">7/10</td>
+                    <td class= "blue" headers="productB usability">10/10</td>
+                    <td class= "blue" headers="productC usability">5/10</td>
+                </tr>
+                <tr>
+                    <th id="price" scope="row">Price</th>
+                    <td class= "dark-blue" headers="productA price">9/10</td>
+                    <td class= "dark-blue" headers="productB price">7/10</td>
+                    <td class= "dark-blue" headers="productC price">3/10</td>
+                </tr>
             </tbody>
         </table>
 
